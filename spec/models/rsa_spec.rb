@@ -1,6 +1,6 @@
 RSpec.describe "Blabal" do
 	it "does something" do
 	r = RSA.new
-	expect(true).to eq false
+	expect(r.encrypt("blabla")).to eq "qwerty"
 	end
 end
